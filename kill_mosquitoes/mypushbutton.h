@@ -23,9 +23,8 @@ public slots:
         int randomY = std::rand() % 400;
 
         this->move(randomX, randomY);
-        qDebug() << "kill mos";
+        qDebug() << "kill mosquito";
     }
 };
-
 
 #endif // MYPUSHBUTTON_H
