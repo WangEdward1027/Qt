@@ -8,5 +8,7 @@ Qt5.14.2 <br>
 3.打蚊子 <br>
 
 4.事件系统： <br>
-(1)事件过滤器: event filter 【event filter -> event -> event handler】
-(2)绘图事件: paintEvent
+(1)事件过滤器: event filter 【event filter -> event -> event handler】  <br>
+(2)绘图事件: paintEvent  <br>
+
+5.model view架构  <br>
