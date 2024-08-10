@@ -14,3 +14,7 @@ Qt5.14.2 <br>
 5.model view架构  <br>
 
 6.QTimer 定时器 <br>
+
+7.QFile 文件操作 <br>
+
+8.QTcpSocket 网络通信
