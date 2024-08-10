@@ -12,3 +12,5 @@ Qt5.14.2 <br>
 (2)绘图事件: paintEvent  <br>
 
 5.model view架构  <br>
+
+6.QTimer 定时器 <br>
