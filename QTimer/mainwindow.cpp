@@ -8,11 +8,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     timer = new QTimer(this);
-    timer->setInterval(1000);
+    timer->setInterval(3000);
     timer->start();
-
     QObject::connect(timer, &QTimer::timeout, this, &MainWindow::showTime);
-    showTime();
+    showTime(); //先手动调用一次槽函数,以在刚开始时就显示时间
 }
 
 MainWindow::~MainWindow()
