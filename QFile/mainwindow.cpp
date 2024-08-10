@@ -22,5 +22,6 @@ void MainWindow::on_pushButton_clicked()
     file = new QFile(filepath, this);
     file->open(QIODevice::ReadWrite);
     QByteArray array = file->readAll();
-    ui->textBrowser->setText(QString(array));
+    ui->textBrowser->setText(QString(array));  //仅浏览
+    ui->textEdit->setText(QString(array));     //可浏览,可编辑
 }
