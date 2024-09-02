@@ -17,6 +17,8 @@ public:
     ~MainWindow();
 private slots:
     void showTime();
+    void on_pushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     QTimer *timer;
